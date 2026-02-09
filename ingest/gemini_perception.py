@@ -39,12 +39,11 @@ class GeminiPerceptionEngine:
     """
     
     AVAILABLE_MODELS = [
-        'gemini-2.5-flash',
-        'gemini-3-flash-preview',
-        'gemini-2.0-flash',
-        'gemini-2.5-flash-lite',
-        'gemini-1.5-flash',
-        'gemini-1.5-pro' # Backup for deep analysis
+        'gemini-2.0-flash-exp',      # Latest experimental flash
+        'gemini-exp-1206',           # Latest experimental model
+        'gemini-2.0-flash-latest',   # Latest stable 2.0 flash
+        'gemini-1.5-flash-latest',   # Latest stable 1.5 flash
+        'gemini-1.5-pro-latest'      # Latest stable pro (backup)
     ]
     
     MAX_RPD = 20  # User reported strict 21/day limit. Safety margin.

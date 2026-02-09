@@ -42,12 +42,11 @@ class ModelPool:
         # CORRECT names from genai.list_models()
         # Each model has ~20 RPD limit on free tier
         self.model_configs = [
-            ("gemini-2.5-flash-lite", 20, 1),      # Primary - fast & cheap
-            ("gemini-2.0-flash-lite", 20, 2),      # Backup 1
-            ("gemini-2.0-flash", 20, 3),           # Backup 2  
-            ("gemini-2.5-flash", 20, 4),           # Backup 3
-            ("gemini-3-flash-preview", 20, 5),    # Backup 4
-            ("gemini-2.5-pro", 20, 10),            # Premium - save for complex
+            ("gemini-2.0-flash-exp", 60, 1),       # Latest experimental - fastest
+            ("gemini-exp-1206", 60, 2),            # Latest experimental model
+            ("gemini-2.0-flash-latest", 20, 3),    # Latest stable 2.0 flash
+            ("gemini-1.5-flash-latest", 20, 4),    # Latest stable 1.5 flash
+            ("gemini-1.5-pro-latest", 20, 10),     # Latest stable pro - premium
         ]
         
         # Track usage per model

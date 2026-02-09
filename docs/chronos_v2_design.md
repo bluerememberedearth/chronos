@@ -1,8 +1,26 @@
 # Technical Design Document: Project Chronos v2.0
 **Modernized with Fast Multimodal LLMs**  
 Version: 2.0  
-Status: Architecture Review  
-Classification: Quantitative Research & Development
+Status: **ARCHIVED - Theoretical Design (Not Implemented)**  
+Classification: Research & Exploration
+
+---
+
+## ⚠️ DOCUMENT STATUS
+
+**This document is ARCHIVED and represents a theoretical architecture that was never fully implemented.**
+
+- **Purpose**: Exploration of betting/statistical arbitrage use case with multi-provider LLMs
+- **Outcome**: Proved VLM viability but pivoted away from betting focus due to legal/ToS risks
+- **Current Implementation**: See Chronos v3 (Python + Gemini 1.5, prediction focus, no betting)
+- **Reference Value**: Design patterns and hybrid CV+VLM concepts informed v3 architecture
+
+**For current implementation documentation, see:**
+- [README.md](../README.md) - Quick start and overview
+- [INTEGRATED_DOCUMENTATION.md](INTEGRATED_DOCUMENTATION.md) - Complete technical guide
+- [ROADMAP.md](../ROADMAP.md) - Development roadmap
+
+---
 
 ---
 
