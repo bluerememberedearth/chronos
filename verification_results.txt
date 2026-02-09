@@ -1,0 +1,12 @@
+2026-02-07 13:16:44,650 - INFO - Initializing HybridPerceptionEngine...
+2026-02-07 13:16:44,692 - INFO - Initializing SiliconFlow Client
+2026-02-07 13:16:44,885 - INFO - Testing /Users/solana/chronos_v3/tests/fixtures/huya_vod/frame_000.jpg...
+2026-02-07 13:16:47,939 - INFO - HTTP Request: POST https://api.siliconflow.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-07 13:16:47,960 - INFO - Broadcast State (VLM): UNKNOWN -> CASTER_DESK
+2026-02-07 13:16:47,961 - INFO - Result: CASTER_DESK | Expected: ['DRAFT_PHASE', 'CHAMPION_SELECT']
+2026-02-07 13:16:47,961 - ERROR - ❌ FAIL
+2026-02-07 13:16:47,978 - INFO - Testing /Users/solana/chronos_v3/tests/fixtures/huya_vod/frame_1200.jpg...
+2026-02-07 13:16:49,927 - INFO - HTTP Request: POST https://api.siliconflow.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-07 13:16:49,959 - INFO - Broadcast State (VLM): UNKNOWN -> LIVE_GAME
+2026-02-07 13:16:49,961 - INFO - Result: LIVE_GAME | Expected: ['LIVE_GAME']
+2026-02-07 13:16:49,961 - INFO - ✅ PASS

@@ -1,0 +1,15 @@
+opencv-python>=4.9.0
+google-generativeai>=0.4.0
+anthropic>=0.18.0
+redis>=5.0.0
+psycopg2-binary>=2.9.0
+python-dotenv>=1.0.0
+numpy>=1.26.0
+pydantic>=2.0.0
+tenacity>=8.2.0
+ultralytics>=8.0.0
+Pillow>=10.0.0
+openai>=1.0.0
+yt-dlp>=2023.0.0
+streamlink>=6.0.0
+pytesseract>=0.3.10
