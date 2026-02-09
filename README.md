@@ -1,11 +1,11 @@
 # Chronos v3: Autonomous League of Legends Prediction Engine 🔮
 
-**Chronos v3** is an advanced AI system that watches live League of Legends esports broadcasts (LPL, LCK, LEC, LCS) and provides real-time strategic analysis and win probability predictions. It leverages **Google's Gemini 1.5 Pro/Flash** multimodal models combined with traditional Computer Vision techniques to "see" the game state, understand macro-level flow, and predict outcomes with high accuracy.
+**Chronos v3** is an advanced AI system that watches live League of Legends esports broadcasts (LPL, LCK, LEC, LCS) and provides real-time strategic analysis and win probability predictions. It leverages **Google's Gemini Pro/Flash** multimodal models combined with traditional Computer Vision techniques to "see" the game state, understand macro-level flow, and predict outcomes with high accuracy.
 
 ## 🚀 Key Features
 
 - **Live Stream Ingestion**: Connects directly to Twitch, YouTube, and Huya streams via `streamlink` and `ffmpeg` (1080p60 support).
-- **Deep Macro Analysis 🔭**: uses Gemini 1.5 Pro's 1M+ token context window to analyze multi-frame sequences (video-like) to detect momentum shifts, vision control, and cross-map plays.
+- **Deep Macro Analysis 🔭**: uses Gemini's 1M+ token context window to analyze multi-frame sequences (video-like) to detect momentum shifts, vision control, and cross-map plays.
 - **Strict Budget Optimization 📉**: Intelligent model rotation and cadence-based triggering to operate indefinitely within strict API rate limits (20 Requests Per Day per model for free tier usage).
 - **Triple-Thread Architecture**: Decoupled ingestion, main loop, and VLM threads ensure zero frame drops and non-blocking analysis.
 - **Narrative Intelligence 🧠**: Tracks "Fog of War" (MIA statuses), validates game state consistency (self-correction), and builds a narrative history of the match.
